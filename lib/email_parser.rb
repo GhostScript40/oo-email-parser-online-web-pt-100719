@@ -8,7 +8,7 @@ class EmailAddressParser
   end
   
   def parse
-   address = email.split(/\W/)
+   address = email.split(/\[,\s]/)
    
   end
 end
